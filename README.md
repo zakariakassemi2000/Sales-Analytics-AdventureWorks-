@@ -1,41 +1,6 @@
-﻿# 📊 AdventureWorks Sales Analytics
+# 📊 AdventureWorks Sales Analytics
 
-> 🇫🇷 Français | 🇬🇧 English
-
----
-
-## 🇫🇷 Français
-
-### 📖 Description
-
-Projet d'analyse de données **end-to-end** utilisant **Microsoft Excel**, **SQL Server** et **Power BI** pour analyser les ventes, les clients, les produits et les régions géographiques d'AdventureWorks.
-
-### 🚀 Flux de Travail
-
-`Données brutes` → `Nettoyage Excel` → `Analyse SQL` → `Tableau de bord Power BI` → `Décision Métier`
-
-### 🛠 Stack Technologique
-
-| Outil | Utilisation |
-|-------|-------------|
-| Microsoft Excel | Nettoyage & Analyse Exploratoire |
-| SQL Server | Analyse Métier |
-| Power BI | Tableaux de Bord Interactifs |
-| DAX | Calculs Métier |
-| Git & GitHub | Contrôle de Version |
-
-### 📊 Phases du Projet
-
-- **Phase 1 — Excel** : Nettoyage des données, suppression des doublons, tableaux croisés dynamiques
-- **Phase 2 — SQL** : Jointures, CTEs, fonctions fenêtres, analyse des ventes / clients / produits / régions
-- **Phase 3 — Power BI** : 6 pages interactives (Exécutif, Ventes, Clients, Produits, Géographie, Détail)
-
-### 💡 Insights Clés
-
-- 🚲 Les **vélos** génèrent la majorité des ventes et du bénéfice
-- 🌍 Les **États-Unis** et l'**Australie** sont les marchés les plus performants
-- 👥 Un **petit groupe de clients** concentre une grande partie du chiffre d'affaires
-- 📊 Les tableaux de bord interactifs permettent une **prise de décision rapide**
+> 🇬🇧 English | 🇫🇷 Français
 
 ---
 
@@ -71,6 +36,61 @@ An **end-to-end** data analytics project using **Microsoft Excel**, **SQL Server
 - 🌍 **USA** and **Australia** are the highest-revenue markets
 - 👥 A **small group of customers** contributes significantly to total revenue
 - 📊 Interactive dashboards enable **faster and smarter business decisions**
+
+### 📸 Dashboard Preview
+
+**Page 1 — Executive Dashboard**
+![Executive Dashboard](Dashbord/AdventureWorkbook_page-0001.jpg)
+
+**Page 2 — Sales Performance Analysis**
+![Sales Performance Analysis](Dashbord/AdventureWorkbook_page-0002.jpg)
+
+**Page 3 — Customer Analysis**
+![Customer Analysis](Dashbord/AdventureWorkbook_page-0003.jpg)
+
+**Page 4 — Product Performance**
+![Product Performance](Dashbord/AdventureWorkbook_page-0004.jpg)
+
+**Page 5 — Geographic & Regional Analysis**
+![Geographic Analysis](Dashbord/AdventureWorkbook_page-0005.jpg)
+
+**Page 6 — Sales Detail Report**
+![Sales Detail Report](Dashbord/AdventureWorkbook_page-0006.jpg)
+
+---
+
+## 🇫🇷 Français
+
+### 📖 Description
+
+Projet d'analyse de données **end-to-end** utilisant **Microsoft Excel**, **SQL Server** et **Power BI** pour analyser les ventes, les clients, les produits et les régions géographiques d'AdventureWorks.
+
+### 🚀 Flux de Travail
+
+`Données brutes` → `Nettoyage Excel` → `Analyse SQL` → `Tableau de bord Power BI` → `Décision Métier`
+
+### 🛠 Stack Technologique
+
+| Outil | Utilisation |
+|-------|-------------|
+| Microsoft Excel | Nettoyage & Analyse Exploratoire |
+| SQL Server | Analyse Métier |
+| Power BI | Tableaux de Bord Interactifs |
+| DAX | Calculs Métier |
+| Git & GitHub | Contrôle de Version |
+
+### 📊 Phases du Projet
+
+- **Phase 1 — Excel** : Nettoyage des données, suppression des doublons, tableaux croisés dynamiques
+- **Phase 2 — SQL** : Jointures, CTEs, fonctions fenêtres, analyse des ventes / clients / produits / régions
+- **Phase 3 — Power BI** : 6 pages interactives (Exécutif, Ventes, Clients, Produits, Géographie, Détail)
+
+### 💡 Insights Clés
+
+- 🚲 Les **vélos** génèrent la majorité des ventes et du bénéfice
+- 🌍 Les **États-Unis** et l'**Australie** sont les marchés les plus performants
+- 👥 Un **petit groupe de clients** concentre une grande partie du chiffre d'affaires
+- 📊 Les tableaux de bord interactifs permettent une **prise de décision rapide**
 
 ---
 
