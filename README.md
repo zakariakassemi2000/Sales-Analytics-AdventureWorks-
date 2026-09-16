@@ -1,301 +1,86 @@
-# 📊 AdventureWorks Sales Analytics | Projet d'Analyse de Données End-to-End
+﻿# 📊 AdventureWorks Sales Analytics
 
-Un projet complet d'analyse de données de bout en bout démontrant l'ensemble du processus analytique à l'aide de **Microsoft Excel**, **SQL Server** et **Power BI**. Ce projet transforme des données brutes en insights métier significatifs grâce au nettoyage des données, à l'analyse SQL et à des tableaux de bord interactifs.
-
----
-
-## 📖 Vue d'ensemble
-
-L'objectif de ce projet est d'analyser les données de ventes AdventureWorks et de fournir des insights métier actionnables sur les ventes, les clients, les produits et les régions géographiques.
-
-Contrairement à un simple projet de tableau de bord, ce dépôt démontre le **cycle de vie complet de l'analyse de données** :
-
-- 📁 **Nettoyage des données** dans Excel
-- 📊 **Analyse Exploratoire (EDA)** via les Tableaux Croisés Dynamiques
-- 🗄 **Analyse métier SQL**
-- 📈 **Tableaux de bord interactifs Power BI**
-- 📋 **Reporting Exécutif**
+> 🇫🇷 Français | 🇬🇧 English
 
 ---
 
-## 🚀 Flux de Travail du Projet
+## 🇫🇷 Français
 
-```
-Jeu de données AdventureWorks
-          │
-          ▼
-Microsoft Excel — Nettoyage des Données
-  • Valeurs manquantes
-  • Détection des doublons
-  • Validation des données
-  • Formatage des données
-          │
-          ▼
-Analyse Exploratoire (EDA)
-  • Tableaux Croisés Dynamiques
-  • Graphiques Croisés Dynamiques
-  • Résumé des KPIs
-          │
-          ▼
-Analyse Métier SQL
-  • Exploration des données
-  • Jointures
-  • Agrégations
-  • CTEs
-  • Fonctions Fenêtres
-  • Fonctions de Classement
-  • Insights Métier
-          │
-          ▼
-Développement du Tableau de Bord Power BI
-  • Power Query
-  • Modélisation des données
-  • Schéma en étoile
-  • Mesures DAX
-  • Tableaux de bord interactifs
-          │
-          ▼
-Prise de Décision Métier
-```
+### 📖 Description
+
+Projet d'analyse de données **end-to-end** utilisant **Microsoft Excel**, **SQL Server** et **Power BI** pour analyser les ventes, les clients, les produits et les régions géographiques d'AdventureWorks.
+
+### 🚀 Flux de Travail
+
+`Données brutes` → `Nettoyage Excel` → `Analyse SQL` → `Tableau de bord Power BI` → `Décision Métier`
+
+### 🛠 Stack Technologique
+
+| Outil | Utilisation |
+|-------|-------------|
+| Microsoft Excel | Nettoyage & Analyse Exploratoire |
+| SQL Server | Analyse Métier |
+| Power BI | Tableaux de Bord Interactifs |
+| DAX | Calculs Métier |
+| Git & GitHub | Contrôle de Version |
+
+### 📊 Phases du Projet
+
+- **Phase 1 — Excel** : Nettoyage des données, suppression des doublons, tableaux croisés dynamiques
+- **Phase 2 — SQL** : Jointures, CTEs, fonctions fenêtres, analyse des ventes / clients / produits / régions
+- **Phase 3 — Power BI** : 6 pages interactives (Exécutif, Ventes, Clients, Produits, Géographie, Détail)
+
+### 💡 Insights Clés
+
+- 🚲 Les **vélos** génèrent la majorité des ventes et du bénéfice
+- 🌍 Les **États-Unis** et l'**Australie** sont les marchés les plus performants
+- 👥 Un **petit groupe de clients** concentre une grande partie du chiffre d'affaires
+- 📊 Les tableaux de bord interactifs permettent une **prise de décision rapide**
 
 ---
 
-## 🛠 Stack Technologique
+## 🇬🇧 English
 
-| Outil              | Utilisation                          |
-|--------------------|--------------------------------------|
-| Microsoft Excel    | Nettoyage & Analyse Exploratoire     |
-| SQL Server         | Analyse Métier                       |
-| Power BI           | Développement des Tableaux de Bord   |
-| Power Query        | Transformation des Données           |
-| DAX                | Calculs Métier                       |
-| Git & GitHub       | Contrôle de Version                  |
+### 📖 Description
 
----
+An **end-to-end** data analytics project using **Microsoft Excel**, **SQL Server**, and **Power BI** to analyze AdventureWorks sales, customers, products, and geographic regions.
 
-## 📂 Structure du Dépôt
+### 🚀 Workflow
 
-```
-AdventureWorks-Sales-Analytics
-│
-├── Excel
-│   ├── Jeu de données brut
-│   ├── Jeu de données nettoyé
-│   ├── Tableau de bord Pivot.xlsx
-│   └── Capture Tableau de bord Excel.png
-│
-├── Sql
-│   ├── AdventureWorks_Data_Exploration.sql
-│   ├── Sales_Analysis.sql
-│   ├── Customer_Analysis.sql
-│   ├── Product_Performance_Analysis.sql
-│   ├── Geographic_Territory_Analysis.sql
-│   ├── Executive_Business_Insights.sql
-│   ├── Foreign_Key_Relations.sql
-│   └── Advanced_SQL_Queries.sql
-│
-├── Power BI
-│   ├── AdventureWorks Sales Analytics Dashboard.pbix
-│   └── AdventureWorks Dashboard.pdf
-│
-├── Images
-│   ├── Executive Dashboard.png
-│   ├── Sales Performance Analysis.png
-│   ├── Customer Analysis.png
-│   ├── Product Performance.png
-│   ├── Geographic Analysis.png
-│   ├── Sales Detail Report.png
-│   └── Excel Dashboard.png
-│
-└── README.md
-```
+`Raw Data` → `Excel Cleaning` → `SQL Analysis` → `Power BI Dashboard` → `Business Decision`
+
+### 🛠 Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Microsoft Excel | Data Cleaning & Exploratory Analysis |
+| SQL Server | Business Analysis |
+| Power BI | Interactive Dashboards |
+| DAX | Business Calculations |
+| Git & GitHub | Version Control |
+
+### 📊 Project Phases
+
+- **Phase 1 — Excel**: Data cleaning, duplicate removal, pivot tables & charts
+- **Phase 2 — SQL**: Joins, CTEs, window functions, sales / customer / product / geographic analysis
+- **Phase 3 — Power BI**: 6 interactive pages (Executive, Sales, Customers, Products, Geography, Detail Report)
+
+### 💡 Key Insights
+
+- 🚲 **Bikes** drive the majority of total sales and profit
+- 🌍 **USA** and **Australia** are the highest-revenue markets
+- 👥 A **small group of customers** contributes significantly to total revenue
+- 📊 Interactive dashboards enable **faster and smarter business decisions**
 
 ---
 
-## 📊 Phase 1 — Préparation des Données avec Excel
+## 👨‍💻 Auteur | Author
 
-Le projet commence par la préparation du jeu de données brut dans Microsoft Excel.
+**Zakaria Kassemi**
+*Analyste de Données | Data Analyst*
 
-### Tâches Réalisées
-- ✅ Nettoyage des données brutes AdventureWorks
-- ✅ Suppression des doublons
-- ✅ Vérification des valeurs manquantes
-- ✅ Standardisation des formats de date
-- ✅ Validation des métriques métier
-- ✅ Création de Tableaux Croisés Dynamiques
-- ✅ Construction de Graphiques Croisés Dynamiques
-- ✅ Conception d'un tableau de bord Excel pour l'analyse exploratoire initiale
+`SQL` · `Microsoft Excel` · `Power BI` · `DAX` · `Power Query`
 
 ---
 
-## 🗄 Phase 2 — Analyse Métier SQL
-
-Après la préparation des données, SQL Server a été utilisé pour explorer le jeu de données et répondre aux questions métier avant la visualisation.
-
-### Concepts SQL Utilisés
-- `SELECT`, `WHERE`, `GROUP BY`, `HAVING`, `ORDER BY`, `CASE`
-- `INNER JOIN`, `LEFT JOIN`
-- Expressions de Table Communes (CTEs)
-- Fonctions Fenêtres : `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`
-- Fonctions d'Agrégation
-
-### Questions Métier Répondues
-
-**Analyse des Ventes**
-- Ventes totales
-- Tendance mensuelle des ventes
-- Ventes trimestrielles et annuelles
-- Ventes par catégorie et par pays
-
-**Analyse des Clients**
-- Meilleurs clients
-- Revenus clients
-- Clients récurrents
-- Segmentation & Revenus par occupation / groupe de revenus
-
-**Analyse des Produits**
-- Produits les plus vendus & les plus rentables
-- Catégories & Sous-catégories
-- Quantités vendues & Analyse de la marge bénéficiaire
-
-**Analyse Géographique**
-- Ventes par territoire, pays et région
-- Rentabilité régionale & Distribution des clients
-
----
-
-## 📈 Phase 3 — Tableau de Bord Power BI
-
-Développement d'un tableau de bord interactif professionnel multi-pages avec Power BI.
-
-### 📄 Pages du Tableau de Bord
-
-#### 📌 Tableau de Bord Exécutif
-Vue d'ensemble des performances métier avec les KPIs :
-- Ventes Totales | Commandes Totales | Produits Totaux
-- Clients Totaux | Quantité Commandée | Quantité Moyenne par Commande
-
-#### 📌 Analyse des Performances de Vente
-Insights sur les ventes par : Catégorie · Région · Trimestre · Mois · Pays
-
-#### 📌 Analyse des Clients
-- Meilleurs clients & Clients récurrents
-- Revenus par genre, occupation, groupe de revenus
-- Distribution géographique
-
-#### 📌 Performance Produit
-- Produits les plus vendus & rentables
-- Ventes par catégorie/sous-catégorie
-- Quantité vendue & Marge bénéficiaire
-
-#### 📌 Analyse Géographique & Régionale
-- Ventes par pays & continent
-- Profit régional, marge bénéficiaire, croissance YoY
-- Performance régionale comparative
-
-#### 📌 Rapport Détaillé des Ventes
-Rapport transactionnel interactif incluant : Détails des commandes · Clients · Produits · Montants · Régions · Quantités
-
----
-
-## 📈 Indicateurs Clés de Performance (KPIs)
-
-| KPI                     | Description                        |
-|-------------------------|------------------------------------|
-| Ventes Totales          | Chiffre d'affaires global          |
-| Bénéfice Total          | Profit net global                  |
-| Commandes Totales       | Nombre total de commandes          |
-| Clients Totaux          | Nombre total de clients            |
-| Clients Récurrents      | Taux de fidélisation               |
-| Marge Bénéficiaire %    | Rentabilité en pourcentage         |
-| Valeur Moyenne Commande | Panier moyen                       |
-| Prix de Vente Moyen     | Prix moyen par produit             |
-| Quantité Vendue         | Volume total vendu                 |
-| Croissance YoY %        | Croissance annuelle                |
-
----
-
-## ⭐ Fonctionnalités du Tableau de Bord
-
-- 🎛 Segments interactifs (Slicers)
-- 📊 Cartes KPI dynamiques
-- 🔍 Analyse en profondeur (Drill-down)
-- 🔗 Filtrage croisé
-- 🎨 Mise en forme conditionnelle
-- 📋 Tableaux interactifs
-- 📐 Mise en page responsive
-- 📑 Reporting exécutif
-
----
-
-## 🧮 Mesures DAX
-
-Mesures clés développées :
-
-```dax
-Total Sales = SUM(Sales[SalesAmount])
-Total Profit = SUM(Sales[Profit])
-Total Orders = DISTINCTCOUNT(Sales[SalesOrderNumber])
-Total Customers = DISTINCTCOUNT(Customer[CustomerKey])
-Profit Margin % = DIVIDE([Total Profit], [Total Sales])
-Average Order Value = DIVIDE([Total Sales], [Total Orders])
-YoY Growth % = DIVIDE([Total Sales] - [Previous Year Sales], [Previous Year Sales])
-```
-
----
-
-## 🧠 Compétences Démontrées
-
-### Microsoft Excel
-- Nettoyage & Validation des données
-- Tableaux & Graphiques Croisés Dynamiques
-- Création de tableaux de bord
-
-### SQL
-- Exploration des données
-- Jointures & Fonctions d'agrégation
-- CTEs & Fonctions Fenêtres
-- Fonctions de classement & Analyse métier
-
-### Power BI
-- Modélisation des données (Schéma en étoile)
-- Power Query & DAX
-- Conception de tableaux de bord
-- Business Intelligence & Visualisation
-
----
-
-## 📸 Aperçu du Tableau de Bord
-
-| Page | Description |
-|------|-------------|
-| Tableau de Bord Exécutif | Vue d'ensemble des KPIs métier |
-| Analyse des Performances de Vente | Tendances et comparaisons |
-| Analyse des Clients | Comportement et segmentation |
-| Performance Produit | Rentabilité et volumes |
-| Analyse Géographique & Régionale | Distribution spatiale |
-| Rapport Détaillé des Ventes | Transactions individuelles |
-
----
-
-## 💡 Insights Métier Clés
-
-- 🚲 Les **vélos** génèrent la majorité des ventes et du bénéfice total.
-- 🌍 Les **États-Unis** et l'**Australie** sont les marchés générant les revenus les plus élevés.
-- 👥 Un **petit groupe de clients** contribue de manière significative aux revenus globaux.
-- 📦 La **rentabilité des produits** varie considérablement selon les catégories.
-- 🗺 L'**analyse géographique** identifie les régions performantes et sous-performantes.
-- 📊 Les **tableaux de bord interactifs** permettent des décisions métier plus rapides et éclairées.
-
----
-
-## 👨‍💻 Auteur
-
-**Zakaria Kassemi**  
-*Analyste de Données*
-
-**Compétences :** SQL · Microsoft Excel · Power BI · DAX · Power Query
-
----
-
-> ⭐ Si vous avez trouvé ce projet utile, n'hésitez pas à lui attribuer une étoile !
+> ⭐ N'hésitez pas à laisser une étoile ! | Feel free to leave a star!
